@@ -94,6 +94,7 @@ const HeroSection = () => {
       </div>
       {/* Navbar with ref */}
       {/* <Navbar ref={navbarRef} /> */}
+      
     </div>
   );
 };
