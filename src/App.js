@@ -1,18 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles/global.scss';
-import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-// import SpeedSection from './components/SpeedSection';
 import SecureSection from './components/SecureSection';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
+  const [isHeroCompleted, setIsHeroCompleted] = useState(false);
+
+  const handleHeroComplete = () => {
+    setIsHeroCompleted(true);  
+  };
+
   return (
     <div className="App">
-      <Header />
       <HeroSection />
-      {/* <SpeedSection /> */}
-      <SecureSection />
+      {isHeroCompleted && <Navbar />} 
+      {/* <SecureSection /> */}
       <Footer />
     </div>
   );

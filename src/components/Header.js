@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { FaChevronDown } from 'react-icons/fa'; // Import down arrow icon
-import '../styles/header.scss'; // Import SCSS styles
+import { FaChevronDown } from 'react-icons/fa'; 
+import '../styles/header.scss';
 
 const Header = () => {
   return (
