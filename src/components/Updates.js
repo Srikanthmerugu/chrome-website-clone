@@ -8,13 +8,12 @@ const Updates = () => {
   const updateRef = useRef(null);
   const iconRef = useRef(null);
   const textRef = useRef(null);
-  const imageRef = useRef(null); // Reference for the image
+  const imageRef = useRef(null); 
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          // GSAP animation when component is 50% visible
           gsap.to(iconRef.current, {
             duration: 1,
             rotation: 360,

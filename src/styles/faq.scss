@@ -1,0 +1,71 @@
+.accordion-container-unique {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    background-color: white;
+  }
+  
+  .faq-header-unique {
+    margin-bottom: 30px;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: -0.078125rem;
+        text-align: center;
+        font-weight: 500;
+        font-family: "Google Sans", arial, sans-serif;
+        font-weight: 700;
+  }
+  
+  .accordion-item-unique {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    cursor: pointer;
+    &:active{
+        border-bottom: 3px solid #1967d2;
+    }
+  }
+  
+  .accordion-title-unique {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    color: #1967d2;
+  }
+  
+  .accordion-title-unique h3 {
+    
+    color: #1967d2;
+    transition: all 0.5s ease;
+    font-size: 1.75rem;
+        line-height: 1.25rem;
+
+  }
+  
+  .accordion-title-unique span {
+    font-size: 1.5rem;
+    color: #1967d2;
+    font-weight: bold;
+  }
+  
+  .accordion-content-unique {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-width: 800px;
+
+  }
+  
+  .accordion-content-unique.active {
+    max-height: 200px;
+    // max-width: 800px;
+    
+  }
+  
+  .accordion-content-unique p {
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
