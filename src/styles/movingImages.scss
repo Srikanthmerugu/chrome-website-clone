@@ -1,40 +1,28 @@
 .moving-images-container {
-  display: flex;
-  overflow: hidden;
-  width: 80%;
-//   padding: 20px;
-
-  .image-row {
-    overflow: hidden;
     display: flex;
-    gap: 20px;
-    animation: scroll-images 20s linear infinite;
-
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-    }
-
-    .landscape {
-      width: 800px;
-      height: auto;
-    }
-
-    .vertical {
-      width: auto;
-      height: auto;
-    }
-  }
-
-  @keyframes scroll-images {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
+    overflow: hidden;
+    width: 100%; 
+    margin: 0 auto;
+  
+    .image-row {
+      display: flex;
+      gap: 20px;
+      transition: all 0s ease-in-out;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+  
+      .landscape {
+        width: 800px;
+        height: auto;
+      }
+  
+      .vertical {
+        width: auto;
+        height: auto;
+      }
     }
   }
-
-
-}
+  

@@ -10,6 +10,7 @@ import DownloadChrome from "./components/DownloadChrome";
 import Header from "./components/Header";
 import StaySafe from "./components/StaySafe";
 import MovingImages from "./components/MovingImages";
+import BrowserBuilt from "./components/BrowserBuilt";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Updates />
       <StaySafe />
       <SecureSection /> 
+      <BrowserBuilt/>
       <FAQ />
       <DownloadChrome />
       <Footer />

@@ -1,0 +1,204 @@
+.update-container {
+    padding: 10%;
+    padding-bottom: 5%;
+
+.built-container{
+    width: 80vw;
+    background-color: #fef7e0;
+    // padding: 5%;
+    
+    padding-bottom: 0;
+    border-radius: 30px;
+
+    .built-sub-container{
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+        gap: 50px;
+
+        .built-content-1{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+                padding: 5%;
+
+
+            p{
+                text-transform: uppercase;
+            }
+            h1{
+                width: 22vw;
+                margin-top: 5%;
+                text-align: start;
+                font-size: 2.25rem;
+        line-height: 2.75rem;
+        letter-spacing: -0.046875rem;
+            }
+        }
+
+        .built-content-2{
+
+            p{
+                font-size: 1.125rem;
+        line-height: 1.75rem;
+        width: 30vw;
+        margin-bottom: 5%;
+            }
+            a{
+                text-decoration: none;
+                color: #0059c1;
+                font-size: 16px;
+                font-weight: 600;
+                &:hover .built-arrow{
+                    padding-left: 2%;
+                    transition: all .3s ease;
+
+                }
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+    .update-build {
+        font-size: 4rem;
+        line-height: 4.5rem;
+        letter-spacing: -0.078125rem;
+        text-align: center;
+        font-weight: 500;
+        font-family: "Google Sans", arial, sans-serif;
+        font-weight: 700;
+        margin-bottom: 5%;
+    }
+
+    .update-content {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fef7e0;
+        padding: 0 25px;
+        border-radius: 50px;
+        margin: 0 1%;
+        color: #d56e0c;
+        font-size: 3rem;
+        font-weight: 600;
+
+
+
+        svg {
+            margin-right: 1rem;
+            font-size: 2rem;
+        }
+    }
+
+
+
+.update-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-top: 6%;
+
+    // background-color: red;
+
+    .update-card-1 {
+        width: 47vw;
+        background-color: #e8f0fe;
+        border-radius: 20px;
+       .title{
+        text-transform: uppercase;
+       }
+
+        .update-card-content {
+            padding: 10% 10% 5% 10% ;
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            border-radius: 20px;
+            // width: 30%;
+            margin: 0 auto;
+
+            h1 {
+                padding: 3% 0;
+                font-size: 48px;
+                letter-spacing: -1px;
+                line-height: 56px;
+                font-weight: 500;
+            }
+            a{
+                padding-top: 5%;
+                color: #0059c1;
+                font-size: 1.3rem;
+                font-family: sans-serif;
+            }
+        }
+
+
+        img {
+            width: 35vw;
+            text-align: start;
+            padding: 0;
+
+        }
+
+    }
+    .update-card-2 {
+        width: 47vw;
+        height: 80vh;
+        background-color: #fef7e0;
+        border-radius: 20px;
+        
+       .title{
+        text-transform: uppercase;
+       }
+
+        .update-card-content {
+            padding: 10% 10% 5% 10% ;
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            border-radius: 20px;
+            // width: 30%;
+            margin: 0 auto;
+
+            h1 {
+                padding: 3% 0;
+                font-size: 48px;
+                letter-spacing: -1px;
+                line-height: 56px;
+                font-weight: 500;
+            }
+            a{
+                padding-top: 5%;
+                color: #0059c1;
+                font-size: 1.3rem;
+                font-family: sans-serif;
+            }
+        }
+
+        
+        img {
+            margin-top: 15%;
+            width: 10vw;
+            text-align: start;
+            padding: 0;
+
+        }
+
+    }
+
+  
+
+}
+}
