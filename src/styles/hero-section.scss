@@ -1,3 +1,7 @@
+.hero-section-main-container{
+
+
+
 .hero-topbar {
     display: flex;
     justify-content: space-between;
@@ -5,6 +9,7 @@
     padding: 0.5% 1.5%;
     background-color: #e6ebfb;
     font-family: Arial, sans-serif;
+    z-index: 1100;
   
     .hero-sub-container {
       display: flex;
@@ -26,7 +31,7 @@
     .learn-more {
       display: flex;
       align-items: center;
-  
+      
       p {
         font-weight: 500;
         color: #0073e6;
@@ -41,6 +46,10 @@
           font-size: 1.2rem;
           vertical-align: middle;
         }
+        &:hover{
+            color: #4d9ff1;
+            font-weight: 500;
+        }
       }
     }
   }
@@ -50,7 +59,7 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 60px); 
-    background-color: #f8f9fa;
+    // background-color: #f8f9fa;
     text-align: center;
   
     .hero-content {
@@ -63,12 +72,15 @@
       }
   
       h1 {
-        font-weight: 700;
-        color: #202124;
+
+        font-size: 4rem;
         margin-bottom: 1.5rem;
-        font-size: 4.5rem;
-        line-height: 5.25rem;
-        letter-spacing: -0.21875rem;
+        line-height: 4.5rem;
+        letter-spacing: -0.078125rem;
+        text-align: center;
+        font-weight: 500;
+        font-family: "Google Sans", arial, sans-serif;
+        font-weight: 700;
       }
   
       .download-btn {
@@ -164,23 +176,5 @@
       }
     }
   }
-  
-
-  /* Regular Navbar styles */
-.navbar {
-    position: relative;
-    z-index: 1;
-  }
-  
-  /* Sticky Navbar styles */
-  .sticky-navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;  /* Ensure it stays above other content */
-    background-color: white;  /* Optional: Add background to prevent text overlap */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Optional: Add shadow for a floating effect */
-    transition: all 0.3s ease-in-out;  /* Smooth transition */
-  }
+}
   

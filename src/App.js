@@ -4,19 +4,18 @@ import HeroSection from './components/HeroSection';
 import SecureSection from './components/SecureSection';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Updates from './components/Updates';
 
 function App() {
-  const [isHeroCompleted, setIsHeroCompleted] = useState(false);
-
-  const handleHeroComplete = () => {
-    setIsHeroCompleted(true);  
-  };
+ 
 
   return (
     <div className="App">
       <HeroSection />
-      {isHeroCompleted && <Navbar />} 
-      {/* <SecureSection /> */}
+{/* <Navbar/>       */}
+<Updates/>
+{/* <SecureSection /> */}
+
       <Footer />
     </div>
   );

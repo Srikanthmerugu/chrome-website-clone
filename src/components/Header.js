@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa'; 
 import '../styles/header.scss';
+import Navbar from './Navbar';
 
 const Header = () => {
   return (
+    <div>
     <header className="header">
       <div className="logo">
         <a href="#" className='logo-sub-container'>
@@ -40,6 +42,8 @@ const Header = () => {
         </ul>
       </nav>
     </header>
+   
+    </div>
   );
 };
 

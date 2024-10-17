@@ -2,20 +2,25 @@
 // <weight>: Use a value from 100 to 900
 
 * {
-  font-family: " Sans Display", sans-serif;
+  // font-family: " Sans Display", sans-serif;
+
   // font-weight: <weight>;
   font-style: normal;
+  // background-color: #ffffff;
   
+  // font-family: ;
 }
 
 
 
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+  
+      margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
   }
   
   a {
