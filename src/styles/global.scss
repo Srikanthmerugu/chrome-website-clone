@@ -1,39 +1,40 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
 * {
-  // font-family: " Sans Display", sans-serif;
 
-  // font-weight: <weight>;
   font-style: normal;
   // background-color: #ffffff;
-  
-  // font-family: ;
 }
-
 
 
 body {
 
-    font-family: 'Roboto', sans-serif;
-  
-      margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #ffffff;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-    
-  }
-  li{
-    list-style: none;
-  }
-  
-  h1, h2, p {
-    margin: 0;
-  }
-  
+  font-family: 'Roboto', sans-serif;
 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+
+// color
+$main-bg: #f0f0f0; // Main background color
+$secondary-bg: #d9d9d9; // Secondary background color
+$primary: #0073e6; // Primary color 
+$text: #333333; // Text color 
+$hover: #005bb5;

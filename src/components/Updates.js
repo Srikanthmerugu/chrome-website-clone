@@ -8,7 +8,7 @@ const Updates = () => {
   const updateRef = useRef(null);
   const iconRef = useRef(null);
   const textRef = useRef(null);
-  const imageRef = useRef(null); 
+  const imageRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -27,7 +27,7 @@ const Updates = () => {
           gsap.to(imageRef.current, {
             duration: 2,
             rotation: 360,
-            x: "100%", 
+            x: "100%",
             ease: "power2.out",
           });
         }
@@ -48,7 +48,7 @@ const Updates = () => {
 
   return (
     <>
-      <div className="update-container" ref={updateRef}>
+      <div id="update" className="update-container" ref={updateRef}>
         <h1>
           Discover the latest <br />
           <span className="update-content">
@@ -91,7 +91,7 @@ const Updates = () => {
             <img
               src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg"
               alt="Chrome Logo"
-              ref={imageRef} 
+              ref={imageRef}
             />
           </div>
         </div>

@@ -1,8 +1,8 @@
-.staySafe-container{
-    padding: 5%;
-    padding-bottom: 5%;
+.staySafe-container {
+    padding: 0 5%;
+    // padding-bottom: 5%;
 
-   .staySafe-heading {
+    .staySafe-heading {
         font-size: 4rem;
         line-height: 4.5rem;
         letter-spacing: -0.078125rem;
@@ -12,7 +12,7 @@
         font-weight: 700;
     }
 
-    
+
     .update-content {
         display: inline-flex;
         align-items: center;
@@ -41,9 +41,9 @@
         align-items: center;
         gap: 80px;
         margin-top: 6%;
-    
+
         // background-color: red;
-    
+
         .update-card-1 {
             width: 47vw;
             background-color: #0059c1;
@@ -52,32 +52,33 @@
             transition: all 0.4s ease-out;
             position: relative;
 
-            &:hover .card-img-2{
+            &:hover .card-img-2 {
                 transform: scale(1.2);
                 transition: all 0.4s ease-out;
 
             }
-            &:hover  .safe-card-icon{
-               transform: scale(1.1);
-               transition: all 0.4s ease-out;
+
+            &:hover .safe-card-icon {
+                transform: scale(1.1);
+                transition: all 0.4s ease-out;
 
             }
 
-           .title{
-            text-transform: uppercase;
-           }
+            .title {
+                text-transform: uppercase;
+            }
 
- 
+
             .update-card-content {
-                padding: 10% 10% 5% 10% ;
-    
+                padding: 10% 10% 5% 10%;
+
                 display: flex;
                 flex-direction: column;
                 align-items: start;
                 border-radius: 20px;
                 // width: 30%;
                 margin: 0 auto;
-    
+
                 h1 {
                     padding: 3% 0;
                     font-size: 39px;
@@ -85,13 +86,14 @@
                     line-height: 36px;
                     font-weight: 500;
                 }
-              
+
             }
-            .card-images{
+
+            .card-images {
                 position: relative;
                 overflow: hidden;
 
-                .card-img-2{
+                .card-img-2 {
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -99,14 +101,15 @@
 
                 }
             }
-    
+
             img {
                 width: 35vw;
                 text-align: start;
                 padding: 0;
 
-    
+
             }
+
             .safe-card-icon {
                 position: absolute;
                 bottom: 20px;
@@ -114,55 +117,57 @@
                 background-color: white;
                 color: #0059c1;
                 padding: 10px;
-                width: 40px; 
+                width: 40px;
                 height: 40px;
                 border-radius: 50%;
                 display: flex;
-                justify-content: center; 
-                align-items: center; 
-                font-size: 24px; 
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 transition: all 0.3s ease-out;
 
-              }
-              
-    
+            }
+
+
         }
+
         .update-card-2 {
             width: 45vw;
-            background-color:#e8f0fe;
+            background-color: #e8f0fe;
             border-radius: 20px;
             color: black;
             transition: all 0.4s ease-out;
             position: relative;
 
-            &:hover .card-img-2{
+            &:hover .card-img-2 {
                 transform: scale(1.2);
                 transition: all 0.4s ease-out;
 
             }
-            &:hover  .safe-card-icon{
 
-               transform: scale(1.1);
-               transition: all 0.4s ease-out;
+            &:hover .safe-card-icon {
+
+                transform: scale(1.1);
+                transition: all 0.4s ease-out;
 
             }
 
-           .title{
-            text-transform: uppercase;
-           }
+            .title {
+                text-transform: uppercase;
+            }
 
- 
+
             .update-card-content {
-                padding: 10% 10% 5% 10% ;
-    
+                padding: 10% 10% 5% 10%;
+
                 display: flex;
                 flex-direction: column;
                 align-items: start;
                 border-radius: 20px;
                 // width: 30%;
                 margin: 0 auto;
-    
+
                 h1 {
                     padding: 3% 0%;
                     font-size: 49px;
@@ -170,18 +175,20 @@
                     line-height: 56px;
                     font-weight: 500;
                 }
-              
+
             }
-            .card-images{
-               padding: 20%;
+
+            .card-images {
+                padding: 20%;
             }
-    
+
             img {
                 width: 35vw;
                 text-align: start;
                 padding: 0;
-    
+
             }
+
             .safe-card-icon {
                 position: absolute;
                 bottom: 20px;
@@ -189,23 +196,17 @@
                 background-color: #0059c1;
                 color: white;
                 padding: 10px;
-                width: 40px; 
+                width: 40px;
                 height: 40px;
                 border-radius: 50%;
                 display: flex;
-                justify-content: center; 
-                align-items: center; 
-                font-size: 24px; 
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
                 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                 transition: all 0.3s ease-out;
-              }
-              
-    
+            }
         }
-       
-    
-      
-    
-    } 
-}
 
+    }
+}

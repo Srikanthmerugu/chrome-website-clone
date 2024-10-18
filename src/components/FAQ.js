@@ -46,7 +46,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="accordion-container-unique">
+    <div id="faq" className="accordion-container-unique">
       <h2 className="faq-header-unique">Frequently Asked Questions</h2>
       {faqs.map((faq, index) => (
         <div key={index} className="accordion-item-unique">

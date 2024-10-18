@@ -9,12 +9,15 @@ const Navbar = () => {
     <div className='navbar-main-container'>
         <nav className='navbar-sub-container'>
         <ul className="nav-list">
-          <li><a href="#" >Updates</a></li>
-          <li><a href="#">Yours</a></li>
-          <li><a href="#">Safe</a></li>
-          <li><a href="#">Fast</a></li>
-          <li><a href="#">By Google</a></li>
-          <li><a className="download-btn" href="#"><FaDownload /> Donwload</a></li>
+          <li><a href="#update" >Updates</a></li>
+          <li><a href="#safe">Safe</a></li>
+          {/* <li><a href="#yours">Yours</a></li> */}
+          
+          <li><a href="#built">By Google</a></li>
+          <li><a href="#built-two">Fast</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li></li>
+          <button className="download-btn" href="#"><FaDownload /> Donwload</button>
          
           
         </ul>

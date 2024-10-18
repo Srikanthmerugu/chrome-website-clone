@@ -1,8 +1,6 @@
-.hero-section-main-container{
+.hero-section-main-container {
 
-
-
-.hero-topbar {
+  .hero-topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,28 +8,28 @@
     background-color: #e6ebfb;
     font-family: Arial, sans-serif;
     z-index: 1100;
-  
+
     .hero-sub-container {
       display: flex;
       align-items: center;
       gap: 20px;
-  
+
       img {
-        width: 40px; 
+        width: 40px;
         height: auto;
       }
-  
+
       p {
         font-weight: 600;
         font-size: 1rem;
         color: #333;
       }
     }
-  
+
     .learn-more {
       display: flex;
       align-items: center;
-      
+
       p {
         font-weight: 500;
         color: #0073e6;
@@ -39,38 +37,39 @@
         align-items: center;
         font-size: 1rem;
         cursor: pointer;
-  
+
         span {
           display: inline-block;
           margin-left: 8px;
           font-size: 1.2rem;
           vertical-align: middle;
         }
-        &:hover{
-            color: #4d9ff1;
-            font-weight: 500;
+
+        &:hover {
+          color: #4d9ff1;
+          font-weight: 500;
         }
       }
     }
   }
-  
+
   .hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px); 
+    height: calc(100vh - 60px);
     // background-color: #f8f9fa;
     text-align: center;
-  
+
     .hero-content {
       max-width: 600px;
       margin: 0 auto;
-  
+
       .chrome-logo {
         width: 63px;
         margin-bottom: 20px;
       }
-  
+
       h1 {
 
         font-size: 4rem;
@@ -82,7 +81,7 @@
         font-family: "Google Sans", arial, sans-serif;
         font-weight: 700;
       }
-  
+
       .download-btn {
         display: inline-flex;
         align-items: center;
@@ -95,35 +94,35 @@
         font-size: 1.2rem;
         cursor: pointer;
         transition: background-color 0.4s ease, transform 0.3s ease;
-  
+
         &:hover {
           background-color: #0059c1;
           transform: translateY(-4px);
         }
-  
+
         svg {
           font-size: 1.2rem;
         }
       }
-  
+
       .update-link {
         color: #1a73e8;
         font-size: 1rem;
         margin-top: 1rem;
         cursor: pointer;
         font-weight: 600;
-  
+
         &:hover {
           text-decoration: underline;
         }
       }
-  
+
       .os-info {
         font-size: 0.9rem;
         color: #5f6368;
         margin-top: 1rem;
       }
-  
+
       .checkbox-section {
         display: flex;
         align-items: center;
@@ -132,8 +131,8 @@
         margin-top: 1.5rem;
         font-size: 0.9rem;
         color: #5f6368;
-        
-  
+
+
         input[type='checkbox'] {
           width: 30px;
           height: 20px;
@@ -141,34 +140,35 @@
 
 
         }
-        label{
-            text-align: start;
-            cursor: pointer;
-            
+
+        label {
+          text-align: start;
+          cursor: pointer;
+
         }
-  
+
         a {
           color: #1a73e8;
           text-decoration: none;
-          
-  
+
+
           &:hover {
             text-decoration: underline;
           }
         }
       }
-  
+
       .terms-section {
         font-size: 0.8rem;
         color: #5f6368;
         margin-top: 1rem;
-        line-height:1.5 ;
+        line-height: 1.5;
 
-  
+
         a {
           color: #1a73e8;
           text-decoration: none;
-  
+
           &:hover {
             text-decoration: underline;
           }
@@ -177,4 +177,3 @@
     }
   }
 }
-  

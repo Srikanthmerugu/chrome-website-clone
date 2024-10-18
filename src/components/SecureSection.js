@@ -5,10 +5,8 @@ import Navbar from './Navbar';
 
 const SecureSection = () => {
   const sectionRef = useRef(null);
-  // const [isNavbarVisible, setIsNavbarVisible] = useState(false);
 
   useEffect(() => {
-    // GSAP animation for the section
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0, y: 100 },
@@ -16,16 +14,8 @@ const SecureSection = () => {
     );
     }, []);
 
-   
-    
-
-   
-
-   
-
   return (
     <div>
-      {/* {isNavbarVisible && <Navbar />} */}
       <section ref={sectionRef} className="secure-section">
         <div className="content">
           <h2>Secure Browsing</h2>
