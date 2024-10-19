@@ -17,7 +17,7 @@
 }
 
 .accordion-item-unique {
-  border-bottom: 0.52vw solid #ddd; 
+  border-bottom: 0.15vw solid#1967d2; 
   padding: 0.52vw 0;
   cursor: pointer;
 
@@ -51,7 +51,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  max-width: 21.88vw; 
+  max-width: 60.88vw; 
 }
 
 .accordion-content-unique.active {
