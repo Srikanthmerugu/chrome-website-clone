@@ -8,6 +8,9 @@ This project is a clone of the animated segments of the [Chrome website](https:/
 
 You can view the live demo of the project : https://chrome-website-clone.vercel.app/
 
+![Screenshot 2024-10-18 112936](https://github.com/user-attachments/assets/74d71c05-cb8c-4fdf-a467-eef1e6de74f8)
+
+
 ## Technologies Used
 
 - **React (Functional Components)**: For building the UI.
@@ -85,4 +88,3 @@ If you have any questions, feel free to contact me at:
 ## License
 
 This project is licensed under the MIT License.
-
