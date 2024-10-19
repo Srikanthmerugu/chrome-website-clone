@@ -2,18 +2,17 @@
     width: 80vw;
     margin: 0 auto;
     position: sticky;
-    top: 10px;
+    top: 1.04vh;
     z-index: 10001;
 
     .navbar-sub-container {
-        width: 40vw;
+        width: 39vw;
         overflow: hidden;
         margin: 0 auto;
         background-color: white;
-        border-radius: 50px;
-        box-shadow: 2px 3px 7px #b1b1b1,
-            -2px -3px 7px #b1b1b1;
-
+        border-radius: 2.6vw;
+        box-shadow: 0.21vw 0.31vw 0.73vw #b1b1b1,
+            -0.21vw -0.31vw 0.73vw #b1b1b1;
 
         .nav-list {
             display: flex;
@@ -23,38 +22,34 @@
             margin: 0;
 
             li {
-                margin-right: 0px;
-                padding: 20px 20px;
+                margin-right: 0;
+                padding: 2.08vh 1.5vw;
 
                 &:hover {
                     background-color: #e2eefb;
-                    padding: 10px 20px;
-                    border-radius: 25px;
+                    // padding: 1.04vh 2.08vw;
+                    border-radius: 2.6vw;
                 }
 
                 &:focus {
                     color: black;
-                    height: 52px;
-                    border-bottom: 3px solid #0073e6;
-
+                    height: 5.42vh;
+                    border-bottom: 0.31vh solid #0073e6;
                 }
-
 
                 a {
                     text-decoration: none;
-                    font-size: 16px;
+                    font-size: 0.83vw;
                     color: #6d737be5;
                     display: flex;
                     font-weight: 550;
                     align-items: center;
                     border-bottom: 1px solid transparent;
 
-                    &:hover {
-                        color: #0073e6;
-                        background-color: #ecf3fa;
-
-                    }
-
+                    // &:hover {
+                    //     color: #0073e6;
+                    //     background-color: #ecf3fa;
+                    // }
 
                     &:active {
                         color: black;
@@ -62,35 +57,25 @@
 
                     &:focus {
                         color: black;
-                        height: 48px;
-                        border-bottom: 3px solid #0073e6;
-
-
+                        height: 5vh;
+                        border-bottom: 0.31vh solid #0073e6;
                     }
-
-
                 }
-
-               
-
-
-
-
             }
+
             .download-btn {
                 background-color: #0073e6;
                 color: white;
-                padding: 10px 25px;
-                border-radius: 20px;
-                border: 2px solid #0073e6;
+                padding: 1.04vh 2.6vw;
+                border-radius: 2.6vw;
+                border: 0.21vw solid #0073e6;
                 cursor: pointer;
 
-                &:hover{
+                &:hover {
                     background-color: transparent;
                     color: #0073e6;
                 }
             }
         }
     }
-
 }

@@ -1,12 +1,12 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0 2.08vw;
   background-color: #fff;
-  box-shadow: 0 2px 8px 0 rgba(32, 33, 36, 0.08);
-  height: 64px;
+  box-shadow: 0 0.21vh 0.83vh 0 rgba(32, 33, 36, 0.08);
+  height: 8.67vh;
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 1000;
 
   .logo {
@@ -18,8 +18,8 @@
     color: #5f6368;
 
     img {
-      margin-right: 7px;
-      width: 35px;
+      margin-right: 0.73vw;
+      width: 3.0vw;
       padding: 0;
     }
 
@@ -27,13 +27,10 @@
       display: flex;
       align-items: center;
     }
-
-
   }
 
-
   nav {
-    margin-left: 2.8rem;
+    margin-left: 2.92rem;
     flex: 1;
 
     .nav-list {
@@ -45,27 +42,23 @@
 
       li {
         position: relative;
-        margin-right: 0px;
-        padding: 10px 0 0 0px;
-        padding: 10px 12px;
+        margin-right: 0;
+        padding: 1.04vh 0 0 0;
+        padding: 1.04vh 1.25vw;
 
         &:hover {
           background-color: #f4f7fa;
-          padding: 10px 12px;
-          border-radius: 5px;
+          padding: 1.04vh 1.25vw;
+          border-radius: 0.52vw;
         }
 
         &:focus {
           color: black;
-          // height: 52px;
-          // border-bottom: 3px solid #0073e6;
-
         }
-
 
         a {
           text-decoration: none;
-          font-size: 16px;
+          font-size: 1.1vw;
           color: #6d737be5;
           display: flex;
           font-weight: 550;
@@ -74,25 +67,20 @@
 
           &:hover {
             color: #0073e6;
-            //   border-bottom: 3px solid #0073e6;
-
           }
 
           svg {
-            margin-left: 5px;
+            margin-left: 0.52vw;
           }
 
           &:active {
             color: black;
-            // border-bottom: 1px solid #0073e6;
           }
 
           &:focus {
             color: black;
-            height: 48px;
-            border-bottom: 3px solid #0073e6;
-
-
+            height: 5vh;
+            border-bottom: 0.31vh solid #0073e6;
           }
         }
 
@@ -104,15 +92,15 @@
           right: 0;
           background-color: #fff;
           border: 1px solid #ccc;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          padding: 10px;
+          box-shadow: 0 0.42vh 0.83vh rgba(0, 0, 0, 0.1);
+          padding: 1.04vh;
           list-style: none;
           width: 13.5vw;
           z-index: 10;
           transition: opacity 0.3s ease, visibility 0.3s ease;
 
           li {
-            margin-bottom: 10px;
+            margin-bottom: 1.04vh;
             width: 90%;
             margin: 0 auto;
 
@@ -125,7 +113,6 @@
 
               &:hover {
                 color: #0073e6;
-
               }
             }
           }

@@ -6,7 +6,7 @@
 }
 
 .faq-header-unique {
-  margin-bottom: 30px;
+  margin-bottom: 3.13vw; 
   font-size: 3rem;
   line-height: 4.5rem;
   letter-spacing: -0.078125rem;
@@ -17,12 +17,12 @@
 }
 
 .accordion-item-unique {
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  border-bottom: 0.52vw solid #ddd; 
+  padding: 0.52vw 0;
   cursor: pointer;
 
   &:active {
-    border-bottom: 3px solid #1967d2;
+    border-bottom: 0.26vw solid #1967d2; 
   }
 }
 
@@ -35,16 +35,14 @@
 }
 
 .accordion-title-unique h3 {
-
   color: #1967d2;
   transition: all 0.5s ease;
-  font-size: 1.5rem;
-  line-height: 1.25rem;
-
+  font-size: 1.56vw; 
+  line-height: 1.3rem;
 }
 
 .accordion-title-unique span {
-  font-size: 1.5rem;
+  font-size: 1.56vw; 
   color: #1967d2;
   font-weight: bold;
 }
@@ -53,19 +51,88 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  max-width: 800px;
-
+  max-width: 21.88vw; 
 }
 
 .accordion-content-unique.active {
-  max-height: 200px;
-  // max-width: 800px;
-
+  max-height: 26.04vh; 
 }
 
 .accordion-content-unique p {
-  padding: 10px 0;
-  font-size: 1rem;
+  padding: 0.52vw 0;
+  font-size: 1.04vw; 
   color: #555;
   line-height: 1.5;
+}
+
+
+// small screen 
+
+@media (max-width: 767px) {
+  .accordion-container-unique {
+    width: 90%;
+
+  }
+  .faq-header-unique {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .accordion-item-unique {
+    padding: 1vh 0; 
+  }
+
+  .accordion-title-unique h3 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .accordion-title-unique span {
+    font-size: 1.2rem;
+  }
+
+  .accordion-content-unique {
+    max-width: 90vw;
+  }
+
+  .accordion-content-unique p {
+    padding: 2vh 0;
+    font-size: 0.9rem;
+  }
+}
+
+
+// tab screen 
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .accordion-container-unique {
+    width: 90%;
+
+  }
+  .faq-header-unique {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .accordion-item-unique {
+    padding: 2vh 0;
+  }
+
+  .accordion-title-unique h3 {
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+  }
+
+  .accordion-title-unique span {
+    font-size: 1.4rem;
+  }
+
+  .accordion-content-unique {
+    max-width: 85vw;
+  }
+
+  .accordion-content-unique p {
+    padding: 4vh 0;
+    font-size: 1rem;
+  }
 }

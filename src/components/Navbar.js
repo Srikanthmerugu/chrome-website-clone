@@ -16,7 +16,6 @@ const Navbar = () => {
           <li><a href="#built">By Google</a></li>
           <li><a href="#built-two">Fast</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li></li>
           <button className="download-btn" href="#"><FaDownload /> Donwload</button>
          
           

@@ -42,7 +42,7 @@ const BrowserBuilt = () => {
               </a>
             </div>
           </div>
-          <img
+          <img className="crome-image-large"
             src="https://www.google.com/chrome/static/images/v2/gallery/ai_desktop.webp"
             alt="google-crome"
           />
